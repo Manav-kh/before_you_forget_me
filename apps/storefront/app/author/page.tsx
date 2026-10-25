@@ -1,0 +1,6 @@
+import { pageMetadata } from '../../ui/seo';
+import type { Metadata } from 'next';
+import { getPublicContent } from '../../ui/data';
+import { ArrowLink, PageIntro, Prose } from '../../ui/blocks';
+export async function generateMetadata():Promise<Metadata>{const content=await getPublicContent();return pageMetadata({path:'/author',title:content.authorName,description:content.authorBio,content,imageUrl:content.authorImageUrl});}
+export default async function AuthorPage(){const content=await getPublicContent();return <><PageIntro label="The author" title={content.authorName} description="Writer. Observer. Collector of small moments."/><section className="container author-split author-page"><div className="author-image"><img src={content.authorImageUrl||'/media/author.webp'} alt={`Portrait of ${content.authorName}`} width="720" height="900" fetchPriority="high"/></div><div className="author-copy"><h2>Stories begin<br/>long before<br/><em>they are written.</em></h2><Prose text={content.authorBio}/><img className="author-signature" src="/media/signature.png" width="230" height="75" alt="" aria-hidden="true"/><div className="inline-actions"><ArrowLink href="/contact">Start a conversation</ArrowLink><ArrowLink href="/invite">Invite the author</ArrowLink></div></div></section></>;}

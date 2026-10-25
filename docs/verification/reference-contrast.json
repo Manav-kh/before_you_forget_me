@@ -1,0 +1,53 @@
+{
+  "scope": "Selected CSS foreground/background pairs; no full-page WCAG certification",
+  "checks": [
+    {
+      "label": "pending",
+      "foreground": "#88570c",
+      "background": "#fff4d6",
+      "ratio": 5.61
+    },
+    {
+      "label": "progress",
+      "foreground": "#245c9c",
+      "background": "#edf5ff",
+      "ratio": 6.19
+    },
+    {
+      "label": "completed",
+      "foreground": "#226342",
+      "background": "#eaf7ef",
+      "ratio": 6.5
+    },
+    {
+      "label": "cancelled",
+      "foreground": "#a43434",
+      "background": "#fff0ef",
+      "ratio": 6.08
+    },
+    {
+      "label": "neutral",
+      "foreground": "#596575",
+      "background": "#f2f4f7",
+      "ratio": 5.38
+    },
+    {
+      "label": "unpaid",
+      "foreground": "#4d586c",
+      "background": "#ffffff",
+      "ratio": 7.17
+    },
+    {
+      "label": "public gold label",
+      "foreground": "#8a6513",
+      "background": "#ffffff",
+      "ratio": 5.31
+    },
+    {
+      "label": "body muted",
+      "foreground": "#657080",
+      "background": "#ffffff",
+      "ratio": 5.02
+    }
+  ]
+}

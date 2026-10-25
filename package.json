@@ -1,0 +1,35 @@
+{
+  "name": "before-you-forget-me-v2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": ["apps/*", "packages/*"],
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "setup": "tsx tools/setup.ts",
+    "assets": "node tools/prepare-assets.mjs",
+    "dev": "node tools/dev.mjs",
+    "build": "npm run build --workspace @byfm/storefront && npm run build --workspace @byfm/admin",
+    "start": "node tools/dev.mjs --production",
+    "typecheck": "tsc -p apps/storefront/tsconfig.json --noEmit && tsc -p apps/admin/tsconfig.json --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "verify:http": "tsx tools/verify-http.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.10",
+    "lucide-react": "1.57.0",
+    "pg": "8.23.1",
+    "sharp": "0.35.5",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/pg": "8.23.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vite": "8.3.4"
+  }
+}

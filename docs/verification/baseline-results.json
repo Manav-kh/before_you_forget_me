@@ -1,0 +1,781 @@
+{
+  "scope": "Isolated local Flask test client and temporary seeded SQLite database; no live website or original project data modified.",
+  "source_project": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me",
+  "temporary_data": "C:\\Users\\mind8\\AppData\\Local\\Temp\\byfm-discovery-data-v0av1iiy",
+  "checks": [
+    {
+      "check": "Public GET /",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /about-author",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /about-book",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /plans",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /plans/1",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /blog",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /contact",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /invite",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /login",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /register",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /why-join",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /training",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /blog/a-note-to-the-people-who-keep-letters",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /blog/the-shimla-behind-the-story",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Public GET /blog/why-we-remember-ordinary-days",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "All rendered local assets return HTTP 200",
+      "actual": [
+        {
+          "url": "/static/img/before-you-forget-me-cover.png",
+          "status": 404
+        },
+        {
+          "url": "/static/img/before-you-forget-me-jacket.png",
+          "status": 404
+        }
+      ],
+      "expected": [],
+      "passes": false
+    },
+    {
+      "check": "Custom unknown page returns HTTP 404",
+      "actual": 404,
+      "expected": 404,
+      "passes": true
+    },
+    {
+      "check": "Anonymous admin requires login",
+      "actual": 302,
+      "expected": 302,
+      "passes": true
+    },
+    {
+      "check": "POST without CSRF is rejected",
+      "actual": 400,
+      "expected": 400,
+      "passes": true
+    },
+    {
+      "check": "robots.txt exists",
+      "actual": 404,
+      "expected": 200,
+      "passes": false
+    },
+    {
+      "check": "sitemap.xml exists",
+      "actual": 404,
+      "expected": 200,
+      "passes": false
+    },
+    {
+      "check": "Configured initial admin can sign in",
+      "actual": 302,
+      "expected": 302,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/plans",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/plans/new",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/members",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/enrollments",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/enquiries",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/posts",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/export/members.csv",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin GET /admin/export/enrollments.csv",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Admin creates edition with custom image",
+      "actual": 302,
+      "expected": 302,
+      "passes": true
+    },
+    {
+      "check": "Published edition appears in shop",
+      "actual": true,
+      "expected": true,
+      "passes": true
+    },
+    {
+      "check": "Featured edition appears on homepage",
+      "actual": false,
+      "expected": true,
+      "passes": false
+    },
+    {
+      "check": "Shop uses saved edition image",
+      "actual": false,
+      "expected": true,
+      "passes": false
+    },
+    {
+      "check": "Detail uses saved edition image",
+      "actual": false,
+      "expected": true,
+      "passes": false
+    },
+    {
+      "check": "Admin creates inactive edition",
+      "actual": 302,
+      "expected": 302,
+      "passes": true
+    },
+    {
+      "check": "Inactive edition remains visible in admin",
+      "actual": true,
+      "expected": true,
+      "passes": true
+    },
+    {
+      "check": "Inactive edition is hidden from public shop",
+      "actual": true,
+      "expected": true,
+      "passes": true
+    },
+    {
+      "check": "Non-finite price produces controlled HTTP 400",
+      "actual": 500,
+      "expected": 400,
+      "passes": false
+    },
+    {
+      "check": "Repeated title article 1 saves cleanly",
+      "actual": 302,
+      "expected": 302,
+      "passes": true
+    },
+    {
+      "check": "Repeated title article 2 saves cleanly",
+      "actual": 302,
+      "expected": 302,
+      "passes": true
+    },
+    {
+      "check": "Repeated title article 3 saves cleanly",
+      "actual": 500,
+      "expected": 302,
+      "passes": false
+    },
+    {
+      "check": "Customer registration works",
+      "actual": 302,
+      "expected": 302,
+      "passes": true
+    },
+    {
+      "check": "Customer cannot access admin",
+      "actual": 403,
+      "expected": 403,
+      "passes": true
+    },
+    {
+      "check": "Edition request reaches confirmation page",
+      "actual": 200,
+      "expected": 200,
+      "passes": true
+    },
+    {
+      "check": "Request still uses gym membership confirmation",
+      "actual": true,
+      "expected": false,
+      "passes": false
+    },
+    {
+      "check": "Customer request is stored",
+      "actual": 1,
+      "expected": 1,
+      "passes": true
+    },
+    {
+      "check": "Sequential request retry does not duplicate enrollment",
+      "actual": 1,
+      "expected": 1,
+      "passes": true
+    },
+    {
+      "check": "Customer account displays pending request",
+      "actual": true,
+      "expected": true,
+      "passes": true
+    },
+    {
+      "check": "Commercial order table exists",
+      "actual": false,
+      "expected": true,
+      "passes": false
+    },
+    {
+      "check": "Historical request preserves original edition name",
+      "actual": false,
+      "expected": true,
+      "passes": false
+    },
+    {
+      "check": "Historical request preserves original price",
+      "actual": false,
+      "expected": true,
+      "passes": false
+    },
+    {
+      "check": "Contact enquiry saves",
+      "actual": 302,
+      "expected": 302,
+      "passes": true
+    },
+    {
+      "check": "Saved enquiry appears in admin",
+      "actual": true,
+      "expected": true,
+      "passes": true
+    }
+  ],
+  "rendered_assets": [
+    {
+      "url": "/static/css/app.css?v=3.0.0",
+      "status": 200
+    },
+    {
+      "url": "/static/css/author.css?v=3.0.0",
+      "status": 200
+    },
+    {
+      "url": "/static/img/apple-touch-icon.png",
+      "status": 200
+    },
+    {
+      "url": "/static/img/before-you-forget-me-cover.png",
+      "status": 404
+    },
+    {
+      "url": "/static/img/before-you-forget-me-jacket.png",
+      "status": 404
+    },
+    {
+      "url": "/static/img/book/before-you-forget-me-cover.png",
+      "status": 200
+    },
+    {
+      "url": "/static/img/book/before-you-forget-me-jacket.png",
+      "status": 200
+    },
+    {
+      "url": "/static/img/icon.png",
+      "status": 200
+    },
+    {
+      "url": "/static/js/app.js?v=3.0.0",
+      "status": 200
+    }
+  ],
+  "schema_tables": [
+    "contacts",
+    "enrollments",
+    "meta",
+    "packages",
+    "posts",
+    "sqlite_sequence",
+    "users"
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.home"
+    },
+    {
+      "path": "/WhyJoin",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_1"
+    },
+    {
+      "path": "/about-author",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.about_author"
+    },
+    {
+      "path": "/about-book",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.about_book"
+    },
+    {
+      "path": "/account",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "auth.account"
+    },
+    {
+      "path": "/account/enrollments/<int:enrollment_id>/cancel",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "auth.cancel_enrollment"
+    },
+    {
+      "path": "/addmembership",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_10"
+    },
+    {
+      "path": "/admin/",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "admin.dashboard"
+    },
+    {
+      "path": "/admin/enquiries",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "admin.contacts"
+    },
+    {
+      "path": "/admin/enquiries/<int:contact_id>/delete",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "admin.contact_delete"
+    },
+    {
+      "path": "/admin/enquiries/<int:contact_id>/status",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "admin.contact_status"
+    },
+    {
+      "path": "/admin/enrollments",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "admin.enrollments"
+    },
+    {
+      "path": "/admin/enrollments/<int:enrollment_id>/delete",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "admin.enrollment_delete"
+    },
+    {
+      "path": "/admin/enrollments/<int:enrollment_id>/status",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "admin.enrollment_status"
+    },
+    {
+      "path": "/admin/export/<table>.csv",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "admin.export_csv"
+    },
+    {
+      "path": "/admin/members",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "admin.members"
+    },
+    {
+      "path": "/admin/members/<int:user_id>/delete",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "admin.member_delete"
+    },
+    {
+      "path": "/admin/members/<int:user_id>/edit",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "admin.member_edit"
+    },
+    {
+      "path": "/admin/members/new",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "admin.member_new"
+    },
+    {
+      "path": "/admin/plans",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "admin.packages"
+    },
+    {
+      "path": "/admin/plans/<int:package_id>/delete",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "admin.package_delete"
+    },
+    {
+      "path": "/admin/plans/<int:package_id>/edit",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "admin.package_edit"
+    },
+    {
+      "path": "/admin/plans/new",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "admin.package_new"
+    },
+    {
+      "path": "/admin/posts",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "admin.posts"
+    },
+    {
+      "path": "/admin/posts/<int:post_id>/delete",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "admin.post_delete"
+    },
+    {
+      "path": "/admin/posts/<int:post_id>/edit",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "admin.post_edit"
+    },
+    {
+      "path": "/admin/posts/new",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "admin.post_new"
+    },
+    {
+      "path": "/blog",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.blog"
+    },
+    {
+      "path": "/blog/<slug>",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.blog_post"
+    },
+    {
+      "path": "/cart",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_5"
+    },
+    {
+      "path": "/contact",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "public.contact"
+    },
+    {
+      "path": "/contactUS",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_6"
+    },
+    {
+      "path": "/contactus",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_7"
+    },
+    {
+      "path": "/dashboard",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_8"
+    },
+    {
+      "path": "/invite",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.invite"
+    },
+    {
+      "path": "/login",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "auth.login"
+    },
+    {
+      "path": "/logout",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "auth.logout"
+    },
+    {
+      "path": "/packages",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_4"
+    },
+    {
+      "path": "/pakage",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_3"
+    },
+    {
+      "path": "/plans",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.packages"
+    },
+    {
+      "path": "/plans/<int:package_id>",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.package_detail"
+    },
+    {
+      "path": "/plans/<int:package_id>/enroll",
+      "methods": [
+        "POST"
+      ],
+      "endpoint": "public.enroll"
+    },
+    {
+      "path": "/register",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "endpoint": "auth.register"
+    },
+    {
+      "path": "/shop",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.shop"
+    },
+    {
+      "path": "/static/<path:filename>",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "static"
+    },
+    {
+      "path": "/training",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.training"
+    },
+    {
+      "path": "/traning",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_2"
+    },
+    {
+      "path": "/uploads/<path:filename>",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.uploaded_file"
+    },
+    {
+      "path": "/viewcontacts",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_12"
+    },
+    {
+      "path": "/viewmembership",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_9"
+    },
+    {
+      "path": "/viewregistration",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_11"
+    },
+    {
+      "path": "/why-join",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.why_join"
+    },
+    {
+      "path": "/whyjoin",
+      "methods": [
+        "GET"
+      ],
+      "endpoint": "public.legacy_0"
+    }
+  ],
+  "summary": {
+    "checks": 55,
+    "passing": 43,
+    "failing": 12
+  }
+}

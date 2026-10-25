@@ -1,0 +1,225 @@
+{
+  "scope": "Real local Next.js HTTP routes and separate admin proxy with synthetic local verification records. Test edition archived; order cancelled. No real payment or external messages.",
+  "summary": {
+    "total": 50,
+    "passed": 50,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check": "Public page /",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /book",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /author",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /shop",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /shop/paperback",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /journal",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /contact",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /invite",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /checkout",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /orders",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /policies/shipping",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /policies/returns",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /policies/privacy",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /robots.txt",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Public page /sitemap.xml",
+      "passed": true,
+      "actual": 200
+    },
+    {
+      "check": "Unknown public page has real 404",
+      "passed": true
+    },
+    {
+      "check": "Unauthenticated admin rejected",
+      "passed": true
+    },
+    {
+      "check": "Owner can sign in",
+      "passed": true
+    },
+    {
+      "check": "Admin resource overview",
+      "passed": true
+    },
+    {
+      "check": "Admin resource editions",
+      "passed": true
+    },
+    {
+      "check": "Admin resource orders",
+      "passed": true
+    },
+    {
+      "check": "Admin resource customers",
+      "passed": true
+    },
+    {
+      "check": "Admin resource posts",
+      "passed": true
+    },
+    {
+      "check": "Admin resource enquiries",
+      "passed": true
+    },
+    {
+      "check": "Admin resource media",
+      "passed": true
+    },
+    {
+      "check": "Admin resource settings",
+      "passed": true
+    },
+    {
+      "check": "Admin resource audit",
+      "passed": true
+    },
+    {
+      "check": "Authenticated mutation without CSRF rejected",
+      "passed": true
+    },
+    {
+      "check": "Foreign origin rejected",
+      "passed": true
+    },
+    {
+      "check": "Edition creation",
+      "passed": true
+    },
+    {
+      "check": "Published edition reaches catalogue",
+      "passed": true
+    },
+    {
+      "check": "Edition detail renders saved image and fractional price",
+      "passed": true
+    },
+    {
+      "check": "Featured edition reaches homepage",
+      "passed": true
+    },
+    {
+      "check": "Unpublished edition hidden from public catalogue",
+      "passed": true
+    },
+    {
+      "check": "Unpublished edition detail returns 404",
+      "passed": true
+    },
+    {
+      "check": "Direct order saved",
+      "passed": true
+    },
+    {
+      "check": "Order uses server amount and unpaid state",
+      "passed": true
+    },
+    {
+      "check": "HTTP retry returns same order",
+      "passed": true
+    },
+    {
+      "check": "Reference alone cannot expose order",
+      "passed": true
+    },
+    {
+      "check": "Private token opens order",
+      "passed": true
+    },
+    {
+      "check": "Stale stock edit rejected after reservation",
+      "passed": true
+    },
+    {
+      "check": "Order history retains original item and amount",
+      "passed": true
+    },
+    {
+      "check": "Private cancellation works",
+      "passed": true
+    },
+    {
+      "check": "Repeated cancellation restores stock once",
+      "passed": true
+    },
+    {
+      "check": "Order visible in separate admin API",
+      "passed": true
+    },
+    {
+      "check": "Authorized CSV orders",
+      "passed": true
+    },
+    {
+      "check": "Authorized CSV customers",
+      "passed": true
+    },
+    {
+      "check": "Authorized CSV enquiries",
+      "passed": true
+    },
+    {
+      "check": "Separate admin proxy retains session",
+      "passed": true
+    },
+    {
+      "check": "Separate admin static site loads",
+      "passed": true
+    }
+  ]
+}

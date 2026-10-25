@@ -1,0 +1,118 @@
+{
+  "original_files_preserved": 14,
+  "total_bytes": 18180707,
+  "files": [
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\images\\ChatGPT Image Sep 7, 2026, 12_46_46 AM.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\images\\ChatGPT Image Sep 7, 2026, 12_46_46 AM.png",
+      "group": "images",
+      "bytes": 2568074,
+      "sha256": "ccf87e9115202420fdb399433697a8bd0f94bc1d728d7a09448933b54f2f5dc5",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\images\\ChatGPT Image Sep 7, 2026, 12_48_53 AM.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\images\\ChatGPT Image Sep 7, 2026, 12_48_53 AM.png",
+      "group": "images",
+      "bytes": 2501311,
+      "sha256": "07beda59d673797179561d22f81f0292e6fdcfa5cab4beb0cc288829a260e92b",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\images\\Frame 18.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\images\\Frame 18.png",
+      "group": "images",
+      "bytes": 6094110,
+      "sha256": "00f2eadf673ff83ad8a3aa2ba9ca632a239bc65b10412fe678f409a5fb8ed442",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\images\\Gemini_Generated_Image_riqgnuriqgnuriqg.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\images\\Gemini_Generated_Image_riqgnuriqgnuriqg.png",
+      "group": "images",
+      "bytes": 1736249,
+      "sha256": "3dbb8cf1db01d58dcd509784f2bc06381340349b160112f7664841588c041c88",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\images\\Screenshot 2026-09-07 003854.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\images\\Screenshot 2026-09-07 003854.png",
+      "group": "images",
+      "bytes": 1266195,
+      "sha256": "a4f1a067c817e74c6cd7ff1a01244a8b6b7ab78a252a5e240fbccd15f53d9a65",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\images\\Screenshot 2026-09-07 003910.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\images\\Screenshot 2026-09-07 003910.png",
+      "group": "images",
+      "bytes": 884526,
+      "sha256": "f09e9f052c59462e3370a67a753fc2d0402809b183f881c01e04c81e5ce68427",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\images\\Screenshot 2026-09-07 123259.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\images\\Screenshot 2026-09-07 123259.png",
+      "group": "images",
+      "bytes": 199906,
+      "sha256": "3a3769c02fb987e662a88606b1b25bcd4dac98f346c635a40bcafb9e87ebad7b",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\images\\Screenshot 2026-09-07 123710.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\images\\Screenshot 2026-09-07 123710.png",
+      "group": "images",
+      "bytes": 591669,
+      "sha256": "dbe9877172f9e6401a45713497085af467e43c8ac990dd0293a427cd348312dc",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\logo\\Frame 1.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\logo\\Frame 1.png",
+      "group": "logo",
+      "bytes": 2505,
+      "sha256": "26f8a3708f7caf6211baf37ceda58c1aae8093ac62b21f378f5017fd4d72d2a2",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\logo\\Frame 2.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\logo\\Frame 2.png",
+      "group": "logo",
+      "bytes": 2507,
+      "sha256": "9c1fc0c779d1bfd5abb3d091c5152a96c3d0c8378228971c2b53f03cad697ddb",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\logo\\Frame 3.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\logo\\Frame 3.png",
+      "group": "logo",
+      "bytes": 2202,
+      "sha256": "b613dbbca39750893a87d3e419351d601215019118935d57b58da0b6631ea42e",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\logo\\Frame 4.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\logo\\Frame 4.png",
+      "group": "logo",
+      "bytes": 2312,
+      "sha256": "493570d465e9960d037e1533a4a18ff06e4e0b0244bd998631686c0eb1d6b953",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me\\app\\static\\img\\book\\before-you-forget-me-cover.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\book\\before-you-forget-me-cover.png",
+      "group": "book",
+      "bytes": 1444615,
+      "sha256": "68dab4db9e18e558b95ce2f295b9d55bcba17b0328cd8583a6798d70bb8dfef9",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    },
+    {
+      "original_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me\\app\\static\\img\\book\\before-you-forget-me-jacket.png",
+      "preserved_path": "C:\\Users\\mind8\\Downloads\\before you forgive me\\before you forgive me\\before_you_forget_me_v2\\assets\\source\\book\\before-you-forget-me-jacket.png",
+      "group": "book",
+      "bytes": 884526,
+      "sha256": "f09e9f052c59462e3370a67a753fc2d0402809b183f881c01e04c81e5ce68427",
+      "publication_status": "Source/reference only; review and optimize before publication"
+    }
+  ]
+}

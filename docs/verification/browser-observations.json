@@ -1,0 +1,17 @@
+{
+  "scope": "Read-only browser validation of isolated localhost app with synthetic data",
+  "login": {
+    "url": "http://127.0.0.1:8765/login",
+    "heading_color": "rgb(246, 237, 219)",
+    "card_background": "rgb(255, 255, 255)",
+    "screenshot_inspected": true
+  },
+  "enquiry_filter": {
+    "url": "http://127.0.0.1:8765/admin/enquiries?status=new",
+    "console_error": "SyntaxError: Failed to execute 'querySelector' on 'Document': The provided selector is empty.",
+    "source": "/static/js/app.js?v=3.0.0:49:28",
+    "typed_query": "no-such-reader-discovery",
+    "unrelated_row_remained_visible": true,
+    "screenshot_and_dom_inspected": true
+  }
+}

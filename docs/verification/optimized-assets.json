@@ -1,0 +1,50 @@
+[
+  {
+    "name": "book-cover",
+    "width": 906,
+    "height": 900,
+    "bytes": 85002
+  },
+  {
+    "name": "book-jacket",
+    "width": 901,
+    "height": 637,
+    "bytes": 81394
+  },
+  {
+    "name": "author",
+    "width": 261,
+    "height": 347,
+    "bytes": 38240
+  },
+  {
+    "name": "hero-moonlit",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 243810
+  },
+  {
+    "name": "reading-book",
+    "width": 845,
+    "height": 1264,
+    "bytes": 84398
+  },
+  {
+    "name": "review-reading",
+    "width": 900,
+    "height": 1200,
+    "bytes": 120610
+  },
+  {
+    "name": "review-letters",
+    "width": 900,
+    "height": 1200,
+    "bytes": 119466
+  },
+  {
+    "name": "review-window",
+    "width": 900,
+    "height": 1200,
+    "bytes": 123904
+  }
+]
